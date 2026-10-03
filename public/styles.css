@@ -727,3 +727,530 @@ img {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
+/* =========================
+   AMAZON FEATURE CARD
+   ========================= */
+
+   .amazon-feature-card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .amazon-card-button {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 11px 17px;
+    border-radius: 999px;
+    background: var(--charcoal);
+    color: var(--white);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+
+  .amazon-feature-card:hover .amazon-card-button {
+    transform: translateY(-2px);
+  }/* =========================
+   FEATURED FIND CREATIVES
+   ========================= */
+
+.featured-creative-link {
+  display: block;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background: var(--paper);
+}
+
+.featured-creative {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.featured-creative-link:hover .featured-creative {
+  transform: scale(1.03);
+}/* =========================
+   CATEGORY CARD POLISH
+   ========================= */
+
+.category-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 230px;
+  padding: 30px 28px;
+  overflow: hidden;
+  border: 1px solid rgba(118, 87, 70, 0.14);
+  border-radius: 22px;
+  background: linear-gradient(
+    145deg,
+    #f4eee5 0%,
+    #e8ddd0 100%
+  );
+  color: var(--charcoal);
+  box-shadow:
+    0 14px 35px rgba(35, 29, 24, 0.08);
+  text-decoration: none;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(118, 87, 70, 0.28);
+  box-shadow:
+    0 20px 45px rgba(35, 29, 24, 0.14);
+}
+
+.category-card .category-icon {
+  display: block;
+  margin-bottom: auto;
+  font-size: 2.1rem;
+  line-height: 1;
+}
+
+.category-card h3 {
+  margin: 35px 0 8px;
+  color: var(--charcoal);
+  font-size: 1.65rem;
+  line-height: 1.05;
+}
+
+.category-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+
+/* =========================
+   AMAZON FEATURE CARD
+   ========================= */
+
+.amazon-feature-card {
+  background: linear-gradient(
+    145deg,
+    #e8d9c8 0%,
+    #d8c2ae 100%
+  );
+  border-color: rgba(118, 87, 70, 0.22);
+}
+
+.amazon-feature-card h3 {
+  font-size: 1.7rem;
+}
+
+.amazon-feature-card:hover {
+  border-color: rgba(118, 87, 70, 0.38);
+}
+
+.amazon-card-button {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: 18px;
+  padding: 11px 17px;
+  border-radius: 999px;
+  background: var(--charcoal);
+  color: var(--white);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.amazon-feature-card:hover .amazon-card-button {
+  transform: translateY(-2px);
+}/* =========================
+   DUSTY ROSE GOLD CATEGORY CARDS
+   ========================= */
+
+.category-card {
+  background: linear-gradient(
+    145deg,
+    #ead8d1 0%,
+    #d8b9ae 100%
+  );
+  border: 1px solid rgba(118, 87, 70, 0.18);
+  color: var(--charcoal);
+  box-shadow:
+    0 14px 35px rgba(118, 87, 70, 0.12);
+}
+
+.category-card h3 {
+  color: var(--charcoal);
+}
+
+.category-card p {
+  color: #6f5b52;
+}
+
+.category-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(118, 87, 70, 0.3);
+  box-shadow:
+    0 20px 45px rgba(118, 87, 70, 0.18);
+}
+
+
+/* AMAZON FINDS */
+
+.amazon-feature-card {
+  background: linear-gradient(
+    145deg,
+    #d8b5aa 0%,
+    #c89b8e 100%
+  );
+  border-color: rgba(118, 87, 70, 0.28);
+}
+
+.amazon-feature-card h3 {
+  color: var(--charcoal);
+}
+
+.amazon-card-button {
+  background: var(--charcoal);
+  color: var(--white);
+}
+
+.amazon-feature-card:hover .amazon-card-button {
+  transform: translateY(-2px);
+}/* =========================
+   TOOLS & WORKSHOP PAGE
+   ========================= */
+
+.tools-page {
+  background: #242321;
+  color: #eee7dc;
+}
+
+.tools-page .site-header {
+  background: #242321;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.tools-page .logo,
+.tools-page .main-nav a {
+  color: #eee7dc;
+}
+
+.tools-page .logo small {
+  color: #aaa39a;
+}
+
+.tools-hero {
+  padding: 100px 0 85px;
+  background:
+    linear-gradient(
+      135deg,
+      #242321 0%,
+      #302e2a 55%,
+      #3b332d 100%
+    );
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.tools-eyebrow {
+  margin: 0 0 18px;
+  color: #c99578;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.tools-hero h1 {
+  max-width: 850px;
+  margin: 0;
+  color: #f3eee6;
+  font-size: clamp(3rem, 7vw, 6rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.tools-intro {
+  max-width: 650px;
+  margin: 30px 0 0;
+  color: #c5bdb2;
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+
+.tools-products {
+  padding: 85px 0;
+  background: #242321;
+}
+
+.tools-section-heading {
+  max-width: 720px;
+  margin-bottom: 50px;
+}
+
+.tools-section-heading h2 {
+  margin: 0 0 15px;
+  color: #f3eee6;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+}
+
+.tools-section-heading p:last-child {
+  margin: 0;
+  color: #aaa39a;
+  line-height: 1.6;
+}
+
+.tools-product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+.tools-product-card {
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 18px;
+  background: #302f2c;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.22);
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.tools-product-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(201, 149, 120, 0.4);
+  box-shadow: 0 24px 55px rgba(0, 0, 0, 0.3);
+}
+
+.tools-product-image {
+  height: 330px;
+  overflow: hidden;
+  background: #1d1c1a;
+}
+
+.tools-product-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tools-image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c99578;
+  font-size: 4rem;
+}
+
+.tools-product-content {
+  padding: 30px;
+}
+
+.tools-tag {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #c99578;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+}
+
+.tools-product-content h3 {
+  margin: 0 0 14px;
+  color: #f3eee6;
+  font-size: 1.6rem;
+  line-height: 1.15;
+}
+
+.tools-product-content p {
+  margin: 0 0 25px;
+  color: #b9b1a7;
+  line-height: 1.6;
+}
+
+.tools-button {
+  display: inline-block;
+  padding: 13px 20px;
+  border-radius: 999px;
+  background: #c99578;
+  color: #242321;
+  font-size: 0.84rem;
+  font-weight: 800;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.tools-button:hover {
+  transform: translateY(-2px);
+  background: #d9ae96;
+}
+
+.tools-disclosure {
+  padding: 0 0 85px;
+  background: #242321;
+}
+
+.tools-disclosure-box {
+  padding: 30px;
+  border: 1px solid rgba(201, 149, 120, 0.2);
+  border-radius: 16px;
+  background: #2b2926;
+}
+
+.tools-disclosure-box h2 {
+  margin: 0 0 12px;
+  color: #f3eee6;
+  font-size: 1.2rem;
+}
+
+.tools-disclosure-box p {
+  margin: 8px 0 0;
+  color: #aaa39a;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.tools-page .site-footer {
+  background: #1d1c1a;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.tools-page .site-footer,
+.tools-page .site-footer a {
+  color: #aaa39a;
+}
+
+@media (max-width: 800px) {
+  .tools-product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tools-hero {
+    padding: 75px 0 65px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tools-product-image {
+    height: 260px;
+  }
+
+  .tools-product-content {
+    padding: 24px;
+  }
+}/* =========================
+   AMAZON FEATURED HERO
+   ========================= */
+
+.amazon-hero-card {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      circle at 85% 15%,
+      rgba(255, 255, 255, 0.18),
+      transparent 32%
+    ),
+    linear-gradient(
+      135deg,
+      #b98778 0%,
+      #c99a8b 48%,
+      #d9b4a5 100%
+    );
+  border: 1px solid rgba(118, 87, 70, 0.25);
+  box-shadow:
+    0 22px 55px rgba(118, 87, 70, 0.2);
+}
+
+.amazon-hero-card::after {
+  content: "AMAZON";
+  position: absolute;
+  right: -18px;
+  bottom: -25px;
+  color: rgba(255, 255, 255, 0.09);
+  font-size: 6rem;
+  font-weight: 900;
+  letter-spacing: -0.08em;
+  transform: rotate(-8deg);
+  pointer-events: none;
+}
+
+.amazon-hero-icon {
+  display: block;
+  margin: 22px 0 8px;
+  font-size: 2.8rem;
+  line-height: 1;
+}
+
+.amazon-hero-card h2 {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 14px;
+  font-size: clamp(2.2rem, 5vw, 3.8rem);
+  line-height: 0.98;
+}
+
+.amazon-hero-card p:not(.hero-card-label) {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  margin-bottom: 25px;
+}
+
+.amazon-hero-button {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  min-width: 250px;
+  padding: 17px 21px;
+  border-radius: 999px;
+  background: var(--charcoal);
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 800;
+  box-shadow:
+    0 10px 25px rgba(35, 29, 24, 0.2);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+.amazon-hero-button strong {
+  font-size: 1.25rem;
+  transition: transform 0.2s ease;
+}
+
+.amazon-hero-button:hover {
+  transform: translateY(-4px);
+  background: #1d1b19;
+  box-shadow:
+    0 15px 32px rgba(35, 29, 24, 0.28);
+}
+
+.amazon-hero-button:hover strong {
+  transform: translateX(5px);
+}
+
+.amazon-hero-note {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin-top: 14px;
+  color: rgba(35, 29, 24, 0.68);
+  font-size: 0.78rem;
+}
