@@ -1,23 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Sara's Finds | Products Worth Finding</title>
+
+  <meta
+    name="description"
+    content="Sara's Finds: products, discoveries, deals, and things worth putting on your radar."
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a href="index.html" class="logo">
+        <span class="logo-mark">SF</span>
+        <span>
+          <strong>Sara's Finds</strong>
+          <small>Things worth finding.</small>
+        </span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="#finds">Finds</a>
+        <a href="#categories">Categories</a>
+        <a href="#about">About</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- HERO -->
+  <main>
+
+    <section class="hero">
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+          <p class="eyebrow">WELCOME TO SARA'S FINDS</p>
+
+          <h1>
+            Good finds shouldn't have to hide in your feed.
+          </h1>
+
+          <p class="hero-text">
+            Products, discoveries, useful little things, and stuff that
+            catches my attention enough to make me stop scrolling.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#finds" class="button button-primary">
+              Explore the finds
+            </a>
+
+            <a href="#categories" class="button button-secondary">
+              Browse categories
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-icon">💜</div>
+          <p class="hero-card-label">CURRENTLY FINDING</p>
+          <h2>Useful things, unusual things, and things I just really like.</h2>
+          <p>
+            New discoveries will be added here as I find them.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- FEATURED FINDS -->
+    <section class="section" id="finds">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">FEATURED</p>
+            <h2>Today's Finds</h2>
+          </div>
+
+          <p>
+            A few things currently on my radar.
+          </p>
+        </div>
+
+
+        <div class="find-grid">
+
+          <!-- FIND 1 -->
+          <article class="find-card">
+            <div class="find-image placeholder-purple">
+              💜
+            </div>
+
+            <div class="find-content">
+              <span class="find-tag">SAFETY</span>
+
+              <h3>Purple Personal Safety Alarm</h3>
+
+              <p>
+                A compact personal alarm with a loud siren and flashing
+                light that can clip onto your keys, bag, or clothing.
+              </p>
+
+              <a href="#" class="text-link">
+                View this find →
+              </a>
+            </div>
+          </article>
+
+
+          <!-- FIND 2 -->
+          <article class="find-card">
+            <div class="find-image placeholder-tools">
+              🛠️
+            </div>
+
+            <div class="find-content">
+              <span class="find-tag">TOOLS</span>
+
+              <h3>Tools Worth Knowing About</h3>
+
+              <p>
+                Equipment and tools that caught my attention because
+                sometimes the right tool really does change the game.
+              </p>
+
+              <a href="#" class="text-link">
+                Explore tools →
+              </a>
+            </div>
+          </article>
+
+
+          <!-- FIND 3 -->
+          <article class="find-card">
+            <div class="find-image placeholder-home">
+              🏠
+            </div>
+
+            <div class="find-content">
+              <span class="find-tag">HOME</span>
+
+              <h3>Home Finds</h3>
+
+              <p>
+                Useful, interesting, or unexpectedly brilliant things
+                for around the house.
+              </p>
+
+              <a href="#" class="text-link">
+                Explore home finds →
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- CATEGORIES -->
+    <section class="section categories-section" id="categories">
+
+      <div class="container">
+
+        <div class="section-heading centered">
+          <p class="eyebrow">BROWSE</p>
+          <h2>Find Something Interesting</h2>
+          <p>
+            I'm always finding something new, so the categories will keep growing.
+          </p>
+        </div>
+
+
+        <div class="category-grid">
+
+          <a href="#" class="category-card">
+            <span>🏠</span>
+            <strong>Home</strong>
+            <small>Home & living finds</small>
+          </a>
+
+          <a href="#" class="category-card">
+            <span>🛠️</span>
+            <strong>Tools</strong>
+            <small>Tools & useful gear</small>
+          </a>
+
+          <a href="#" class="category-card">
+            <span>🌲</span>
+            <strong>Outdoor</strong>
+            <small>Outdoor & adventure</small>
+          </a>
+
+          <a href="#" class="category-card">
+            <span>💄</span>
+            <strong>Beauty</strong>
+            <small>Beauty & personal care</small>
+          </a>
+
+          <a href="#" class="category-card">
+            <span>💜</span>
+            <strong>Safety</strong>
+            <small>Personal safety finds</small>
+          </a>
+
+          <a href="#" class="category-card">
+            <span>🎁</span>
+            <strong>Gifts</strong>
+            <small>Things worth giving</small>
+          </a>
+
+          <a href="#" class="category-card">
+            <span>🐾</span>
+            <strong>Pets</strong>
+            <small>Pet finds</small>
+          </a>
+
+          <a href="#" class="category-card">
+            <span>🚗</span>
+            <strong>Auto</strong>
+            <small>Automotive finds</small>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+
+      <div class="container about-grid">
+
+        <div>
+          <p class="eyebrow">ABOUT</p>
+
+          <h2>I'm always finding something.</h2>
+        </div>
+
+        <div>
+          <p>
+            Sara's Finds is where I collect the products, discoveries,
+            deals, and random things that make me stop and say,
+            "Okay... that's actually pretty cool."
+          </p>
+
+          <p>
+            Some finds come from brands and retailers I work with,
+            while others simply catch my attention.
+          </p>
+
+          <p>
+            This site is growing alongside my content on social media,
+            so check back often. There's always something new showing up.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- DISCLOSURE -->
+    <section class="disclosure">
+      <div class="container">
+
+        <p>
+          <strong>Affiliate disclosure:</strong>
+          Some links on this website may be affiliate links. If you
+          purchase something through one of those links, I may earn a
+          commission at no additional cost to you.
+        </p>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <div>
+        <strong>Sara's Finds</strong>
+        <p>Things worth finding.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#finds">Finds</a>
+        <a href="#categories">Categories</a>
+        <a href="#about">About</a>
+      </div>
+
+    </div>
+
+    <div class="container copyright">
+      © 2026 Sara's Finds. All rights reserved.
+    </div>
+
+  </footer>
+
+</body>
 </html>
