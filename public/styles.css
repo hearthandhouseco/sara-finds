@@ -710,4 +710,20 @@ img {
   height: auto;
   margin: 0 auto;
   border-radius: 12px;
+}/* =========================
+   CATEGORY PAGES
+   ========================= */
+
+.category-creative {
+  margin: 35px auto;
+  text-align: center;
+}
+
+.category-creative img {
+  display: block;
+  width: min(100%, 850px);
+  height: auto;
+  margin: 0 auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
 }
