@@ -3,515 +3,406 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Sara's Finds | Things Worth Finding</title>
-
-  <meta
-    name="description"
-    content="Sara's Finds: real products, real life, really good finds. Tools, home, outdoor, beauty, gifts, pets and more."
-  >
-
+  <meta name="description" content="Sara's Finds: real products, real life, really good finds. Tools, home, outdoor, beauty, gifts, pets and more.">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* JAWS FEATURE: readable text and responsive layout */
+    .jaws-feature {
+      display: grid;
+      grid-template-columns: minmax(150px, 230px) minmax(0, 1fr);
+      gap: 28px;
+      align-items: center;
+      padding: 28px;
+      background: #f1d8d3;
+      border: 1px solid #d9aaa1;
+      border-radius: 18px;
+      color: #292725;
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    .jaws-feature-copy {
+      min-width: 0;
+      color: #292725;
+    }
+
+    .jaws-feature-copy h2,
+    .jaws-feature-copy p,
+    .jaws-feature-copy small {
+      color: #292725;
+    }
+
+    .jaws-feature-copy h2 {
+      margin: 8px 0 12px;
+      line-height: 1.15;
+    }
+
+    .jaws-image-link {
+      display: block;
+      width: 100%;
+    }
+
+    .jaws-image-link img {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-height: 280px;
+      object-fit: contain;
+      border-radius: 12px;
+    }
+
+    .jaws-kit-notice {
+      margin: 18px 0;
+      padding: 14px;
+      background: #fffaf6;
+      color: #292725 !important;
+      border-left: 5px solid #a34f48;
+      border-radius: 6px;
+      line-height: 1.5;
+    }
+
+    .jaws-kit-notice strong {
+      color: #762e29;
+    }
+
+    .jaws-feature-button {
+      display: inline-block;
+      padding: 13px 18px;
+      background: #292725;
+      color: #fffdf9 !important;
+      text-decoration: none;
+      font-weight: 700;
+      border-radius: 8px;
+    }
+
+    .jaws-feature-button:hover {
+      background: #a34f48;
+      color: #fffdf9 !important;
+    }
+
+    .jaws-affiliate-note {
+      display: block;
+      margin-top: 14px;
+      line-height: 1.5;
+      color: #403630 !important;
+    }
+
+    @media (max-width: 650px) {
+      .jaws-feature {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        padding: 18px;
+      }
+
+      .jaws-image-link img {
+        max-height: 240px;
+      }
+    }
+  </style>
 </head>
 
 <body>
-
   <header class="site-header">
     <div class="container header-inner">
-
       <a href="index.html" class="logo">
         <span class="logo-mark">SF</span>
-
         <span>
           <strong>Sara's Finds</strong>
           <small>Things worth finding.</small>
         </span>
       </a>
 
-      <nav class="main-nav">
+      <nav class="main-nav" aria-label="Main navigation">
         <a href="#finds">Finds</a>
         <a href="#categories">Categories</a>
         <a href="sara.html">Meet Sara</a>
       </nav>
-
     </div>
   </header>
 
-
   <main>
-
-    <!-- =========================
-         HERO
-         ========================= -->
-
+    <!-- HERO -->
     <section class="hero">
-
       <div class="container hero-grid">
-
         <div class="hero-content">
-
           <p class="eyebrow">SARA'S FINDS</p>
-
           <h1>
             Real Products.<br>
             Real Life.<br>
             <span>Really Good Finds.</span>
           </h1>
-
           <p class="hero-text">
             Tools, home, outdoor, beauty, gifts and more.
             Handpicked for a life that works hard and looks good doing it.
           </p>
-
-          <a href="#finds" class="button">
-            Explore the Finds →
-          </a>
-
-          <p class="hero-script">
-            A little rugged. A little girlie. Always useful.
-          </p>
-
+          <a href="#finds" class="button">Explore the Finds →</a>
+          <p class="hero-script">A little rugged. A little girlie. Always useful.</p>
         </div>
 
-
         <div class="hero-card amazon-hero-card">
-
           <p class="hero-card-label">⭐ FEATURED RIGHT NOW</p>
-        
           <span class="amazon-hero-icon">🛒</span>
-        
           <h2>My Amazon Finds</h2>
-        
           <p>
             Tools, gear, gadgets, everyday favorites and the random things
             I find myself thinking, “Okay... I actually need that.”
           </p>
-        
-          <a
-            href="amazon.html"
-            class="amazon-hero-button"
-          >
+          <a href="amazon.html" class="amazon-hero-button">
             <span>See My Amazon Finds</span>
             <strong>→</strong>
           </a>
-        
-          <small class="amazon-hero-note">
-            New finds added as I discover them.
-          </small>
-        
+          <small class="amazon-hero-note">New finds added as I discover them.</small>
         </div>
-
       </div>
-
     </section>
 
-
-    <!-- =========================
-         CATEGORIES
-         ========================= -->
-         <section class="purple-feature-section">
-          <a href="dv-awareness.html" class="purple-home-button">
-            31 Days of Purple →
-          </a>
-        </section>
-    <section class="section paper-section" id="categories">
-
+    <!-- FEATURED JAWS LIGHT KIT -->
+    <section class="section paper-section" id="jaws-light-kit">
       <div class="container">
+        <div class="jaws-feature">
+          <a
+            class="jaws-image-link"
+            href="https://www.awin1.com/cread.php?s=4925412&v=129093&q=610810&r=3102892"
+            target="_blank"
+            rel="sponsored noopener"
+            aria-label="Explore the BRKOX Jaws lighting kit"
+          >
+            <img
+              src="https://www.awin1.com/cshow.php?s=4925412&v=129093&q=610810&r=3102892"
+              alt="BRKOX Jaws LEGO display lighting kit"
+              loading="lazy"
+            >
+          </a>
 
+          <div class="jaws-feature-copy">
+            <p class="eyebrow">A FEATURED FIND</p>
+            <h2>We're gonna need a bigger display.</h2>
+            <p>
+              Give your Jaws LEGO display a dramatic lighting upgrade
+              with the BRKOX light kit.
+            </p>
+
+            <p class="jaws-kit-notice">
+              <strong>LIGHT KIT ONLY:</strong>
+              LEGO sets and bricks are <strong>not included</strong>.
+              This listing is for the lighting kit only.
+            </p>
+
+            <a
+              class="jaws-feature-button"
+              href="https://www.awin1.com/cread.php?s=4925412&v=129093&q=610810&r=3102892"
+              target="_blank"
+              rel="sponsored noopener"
+            >
+              EXPLORE THE LIGHT KIT ↗
+            </a>
+
+            <small class="jaws-affiliate-note">
+              This page contains affiliate links. I may earn a commission
+              from qualifying purchases at no additional cost to you.
+            </small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOMESTIC VIOLENCE AWARENESS FEATURE -->
+    <section class="purple-feature-section">
+      <a href="dv-awareness.html" class="purple-home-button">
+        31 Days of Purple →
+      </a>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="section paper-section" id="categories">
+      <div class="container">
         <div class="section-heading">
-
           <p class="eyebrow">BROWSE THE FINDS</p>
-
           <h2>A little bit of everything worth finding.</h2>
-
           <p>
             From the workshop to the house, from everyday essentials
             to things you didn't know you needed.
           </p>
-
         </div>
-
 
         <div class="category-grid">
-
-          <!-- TOOLS -->
-
           <a href="tools.html" class="category-card amazon-feature-card">
             <span class="category-icon">🔨</span>
-          
-            <h3>Tools & Workshop</h3>
-          
-            <p>
-              Workshop gear, tools and useful finds for getting the job done.
-            </p>
-          
-            <span class="amazon-card-button">
-              Enter the Workshop →
-            </span>
+            <h3>Tools &amp; Workshop</h3>
+            <p>Workshop gear, tools and useful finds for getting the job done.</p>
+            <span class="amazon-card-button">Enter the Workshop →</span>
           </a>
-
-          <!-- OUTDOOR -->
 
           <a href="outdoor.html" class="category-card">
-
             <span class="category-icon">🌲</span>
-
             <h3>Outdoor</h3>
-
-            <p>
-              For weekends outside.
-            </p>
-
+            <p>For weekends outside.</p>
           </a>
-
-
-          <!-- HOME -->
 
           <a href="home.html" class="category-card">
-
             <span class="category-icon">🏠</span>
-
             <h3>Home</h3>
-
-            <p>
-              Useful things for your space.
-            </p>
-
+            <p>Useful things for your space.</p>
           </a>
 
+          <a href="beauty.html" class="category-card">
+            <span class="category-icon">🌹</span>
+            <h3>Beauty</h3>
+            <p>Pretty, practical and worth it.</p>
+          </a>
 
-           <!-- BEAUTY -->
+          <a href="pets.html" class="category-card">
+            <span class="category-icon">🐾</span>
+            <h3>Pets</h3>
+            <p>Because they live here too.</p>
+          </a>
 
-<a href="beauty.html" class="category-card">
-
-  <span class="category-icon">🌹</span>
-
-  <h3>Beauty</h3>
-
-  <p>
-    Pretty, practical and worth it.
-  </p>
-
-</a>
-
-
-      
-
-          <!-- PETS -->
-
-<a href="pets.html" class="category-card">
-
-  <span class="category-icon">🐾</span>
-
-  <h3>Pets</h3>
-
-  <p>
-    Because they live here too.
-  </p>
-
-</a>
-<a href="gifts.html" class="category-card">
-  <span class="category-icon">🎁</span>
-  <h3>Gifts & Lifestyle</h3>
-  <p>Fun finds and thoughtful discoveries.</p>
-</a>
+          <a href="gifts.html" class="category-card">
+            <span class="category-icon">🎁</span>
+            <h3>Gifts &amp; Lifestyle</h3>
+            <p>Fun finds and thoughtful discoveries.</p>
+          </a>
         </div>
-
       </div>
-
     </section>
 
-
-    <!-- =========================
-         FEATURED FINDS
-         ========================= -->
-
+    <!-- FEATURED FINDS -->
     <section class="section" id="finds">
-
       <div class="container">
-
         <div class="section-heading">
-
           <p class="eyebrow">FEATURED FINDS</p>
-
           <h2>Things that caught my attention.</h2>
-
-          <p>
-            A growing collection of products, brands and useful
-            little discoveries.
-          </p>
-
+          <p>A growing collection of products, brands and useful little discoveries.</p>
         </div>
-
 
         <div class="find-grid">
-
-
           <!-- SMARTWINGS -->
-
           <article class="find-card">
-
             <a
-  rel="sponsored"
-  href="https://www.awin1.com/cread.php?s=4040051&v=95963&q=529778&r=3102892"
-  target="_blank"
-  class="featured-creative-link"
->
-  <img
-    src="https://www.awin1.com/cshow.php?s=4040051&v=95963&q=529778&r=3102892"
-    alt="SmartWings"
-    class="featured-creative"
-  >
-</a>
-
-            <div class="find-content">
-
-              <span class="find-tag">
-                HOME &amp; LIVING
-              </span>
-
-              <h3>
-                SmartWings
-              </h3>
-
-              <p>
-                Custom motorized shades with smart-home compatibility
-                and multiple control options.
-              </p>
-
-              <a
-                href="smartwings.html"
-                class="text-link"
+              rel="sponsored noopener"
+              href="https://www.awin1.com/cread.php?s=4040051&v=95963&q=529778&r=3102892"
+              target="_blank"
+              class="featured-creative-link"
+            >
+              <img
+                src="https://www.awin1.com/cshow.php?s=4040051&v=95963&q=529778&r=3102892"
+                alt="SmartWings"
+                class="featured-creative"
+                loading="lazy"
               >
-                View this find →
-              </a>
-
+            </a>
+            <div class="find-content">
+              <span class="find-tag">HOME &amp; LIVING</span>
+              <h3>SmartWings</h3>
+              <p>Custom motorized shades with smart-home compatibility and multiple control options.</p>
+              <a href="smartwings.html" class="text-link">View this find →</a>
             </div>
-
           </article>
-
 
           <!-- OLD WHALING COMPANY -->
-
           <article class="find-card">
-
             <a
-  rel="sponsored"
-  href="https://www.awin1.com/cread.php?s=3908317&v=46503&q=516378&r=3102892"
-  target="_blank"
-  class="featured-creative-link"
->
-  <img
-    src="https://www.awin1.com/cshow.php?s=3908317&v=46503&q=516378&r=3102892"
-    alt="Old Whaling Company"
-    class="featured-creative"
-  >
-</a>
-
-            <div class="find-content">
-
-              <span class="find-tag">
-                BATH + BODY
-              </span>
-
-              <h3>
-                Old Whaling Company
-              </h3>
-
-              <p>
-                Bath, body and home finds with a handcrafted,
-                giftable feel and a little everyday luxury.
-              </p>
-
-              <a
-                href="oldwhaling.html"
-                class="text-link"
+              rel="sponsored noopener"
+              href="https://www.awin1.com/cread.php?s=3908317&v=46503&q=516378&r=3102892"
+              target="_blank"
+              class="featured-creative-link"
+            >
+              <img
+                src="https://www.awin1.com/cshow.php?s=3908317&v=46503&q=516378&r=3102892"
+                alt="Old Whaling Company"
+                class="featured-creative"
+                loading="lazy"
               >
-                View this find →
-              </a>
-
+            </a>
+            <div class="find-content">
+              <span class="find-tag">BATH + BODY</span>
+              <h3>Old Whaling Company</h3>
+              <p>Bath, body and home finds with a handcrafted, giftable feel and a little everyday luxury.</p>
+              <a href="oldwhaling.html" class="text-link">View this find →</a>
             </div>
-
           </article>
-
 
           <!-- TRIPLE BRISTLE -->
-
           <article class="find-card">
-
             <a
-  rel="sponsored"
-  href="https://www.awin1.com/cread.php?s=4570372&v=121760&q=586576&r=3102892"
-  target="_blank"
-  class="featured-creative-link"
->
-  <img
-    src="https://www.awin1.com/cshow.php?s=4570372&v=121760&q=586576&r=3102892"
-    alt="Triple Bristle"
-    class="featured-creative"
-  >
-</a>
-
-            <div class="find-content">
-
-              <span class="find-tag">
-                DENTAL FINDS
-              </span>
-
-              <h3>
-                Triple Bristle
-              </h3>
-
-              <p>
-                A three-sided toothbrush and a decent selection of dental
-                accessories available through their website.
-              </p>
-
-              <a
-                href="triplebristle.html"
-                class="text-link"
+              rel="sponsored noopener"
+              href="https://www.awin1.com/cread.php?s=4570372&v=121760&q=586576&r=3102892"
+              target="_blank"
+              class="featured-creative-link"
+            >
+              <img
+                src="https://www.awin1.com/cshow.php?s=4570372&v=121760&q=586576&r=3102892"
+                alt="Triple Bristle"
+                class="featured-creative"
+                loading="lazy"
               >
-                View Triple Bristle →
-              </a>
-
+            </a>
+            <div class="find-content">
+              <span class="find-tag">DENTAL FINDS</span>
+              <h3>Triple Bristle</h3>
+              <p>A three-sided toothbrush and a selection of dental accessories available through their website.</p>
+              <a href="triplebristle.html" class="text-link">View Triple Bristle →</a>
             </div>
-
           </article>
-
-
         </div>
-
       </div>
-
     </section>
 
-
-    <!-- =========================
-         ABOUT
-         ========================= -->
-
-    <section
-      class="section about-section"
-      id="about"
-    >
-
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
       <div class="container about-grid">
-
         <div>
-
-          <p class="eyebrow">
-            ABOUT SARA'S FINDS
-          </p>
-
-          <h2>
-            I like useful things.
-            I also like pretty things.
-          </h2>
-
+          <p class="eyebrow">ABOUT SARA'S FINDS</p>
+          <h2>I like useful things. I also like pretty things.</h2>
         </div>
-
 
         <div class="about-note">
-
-          <strong>
-            So why choose?
-          </strong>
-
+          <strong>So why choose?</strong>
           <p>
             Sara's Finds is a place for products that catch my eye,
-            solve a problem, make life easier, or are simply too good
-            not to share.
+            solve a problem, make life easier, or are simply too good not to share.
           </p>
-
           <p>
-            Some links on this site are affiliate links, which means
-            I may earn a commission if you purchase through them.
-            That does not change the price you pay.
+            Some links on this site are affiliate links, which means I may earn
+            a commission if you purchase through them. That does not change the price you pay.
           </p>
-
         </div>
-
       </div>
-
     </section>
 
-
-    <!-- =========================
-         AFFILIATE DISCLOSURE
-         ========================= -->
-
+    <!-- AFFILIATE DISCLOSURE -->
     <section class="section paper-section">
-
       <div class="container">
-
         <div class="disclosure">
-
-          <strong>
-            Affiliate disclosure:
-          </strong>
-
-          Some links on Sara's Finds are affiliate links.
-          If you click an affiliate link and make a purchase,
-          I may earn a commission at no additional cost to you.
-          Affiliate relationships help support the work that goes
-          into creating and maintaining this site.
-
+          <strong>Affiliate disclosure:</strong>
+          Some links on Sara's Finds are affiliate links. If you click an affiliate link
+          and make a purchase, I may earn a commission at no additional cost to you.
+          Affiliate relationships help support the work that goes into creating and
+          maintaining this site.
         </div>
-
       </div>
-
     </section>
-
   </main>
 
-
-  <!-- =========================
-       FOOTER
-       ========================= -->
-
+  <!-- FOOTER -->
   <footer class="site-footer">
-
     <div class="container footer-inner">
-
       <div>
-
-        <strong>
-          Sara's Finds
-        </strong>
-
-        <p>
-          Things worth finding.
-        </p>
-
+        <strong>Sara's Finds</strong>
+        <p>Things worth finding.</p>
       </div>
 
-
-      <div class="footer-links">
-
-        <a href="#finds">
-          Finds
-        </a>
-
-        <a href="#categories">
-          Categories
-        </a>
-
-        <a href="sara.html">
-          Meet Sara
-        </a>
-
-      </div>
-
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#finds">Finds</a>
+        <a href="#categories">Categories</a>
+        <a href="sara.html">Meet Sara</a>
+      </nav>
     </div>
-
 
     <div class="container copyright">
-
       © 2026 Sara's Finds. All rights reserved.
-
     </div>
-
   </footer>
-
 </body>
 </html>

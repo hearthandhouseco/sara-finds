@@ -2183,3 +2183,54 @@ a.purple-home-button:hover {
   background: #dfc7e1;
   color: #4d304b;
 }
+/* =========================
+   HOMEPAGE POLISH
+   ========================= */
+
+/* Keep cards and images behaving predictably */
+.find-card,
+.amazon-feature-card,
+.category-card {
+  min-width: 0;
+}
+
+/* Give featured-find images a consistent frame */
+.featured-creative-link {
+  display: block;
+  overflow: hidden;
+  background: var(--paper);
+}
+
+/* Make category cards feel cohesive */
+.category-card {
+  min-height: 220px;
+  border-radius: 20px;
+  box-shadow: 0 14px 35px rgba(118, 87, 70, 0.12);
+}
+
+/* Keep buttons easy to read and use */
+.button,
+.amazon-card-button {
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Prevent long content from spilling on small screens */
+img {
+  height: auto;
+}
+
+@media (max-width: 620px) {
+  .hero h1 {
+    font-size: clamp(2.8rem, 12vw, 3.5rem);
+  }
+
+  .hero-card,
+  .find-content {
+    padding: 24px;
+  }
+
+  .category-card {
+    min-height: 190px;
+  }
+}
