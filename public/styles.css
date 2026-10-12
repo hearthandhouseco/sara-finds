@@ -2234,3 +2234,29 @@ img {
     min-height: 190px;
   }
 }
+/* Featured 31 Days of Purple */
+a.purple-home-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px 42px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #793c91, #b46ac7);
+  color: #ffffff;
+  border: 2px solid #d8b1e2;
+  box-shadow: 0 10px 28px rgba(100, 48, 125, 0.28);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+a.purple-home-button:hover {
+  background: linear-gradient(135deg, #69327f, #9e52b5);
+  color: #ffffff;
+  transform: translateY(-3px);
+  box-shadow: 0 14px 32px rgba(100, 48, 125, 0.35);
+}
+
